@@ -1,13 +1,13 @@
 a{
-	-webkit-appearance: none;
+	-webkit-appearance: none!important;
 }
 
 btn{
-	-webkit-appearance: none;
+	-webkit-appearance: none!important;
 }
 
 *{
-	-webkit-appearance: none;
+	-webkit-appearance: none!important;
 }
 
 .test1{
