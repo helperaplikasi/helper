@@ -1,3 +1,15 @@
+a{
+	-webkit-appearance: none;
+}
+
+btn{
+	-webkit-appearance: none;
+}
+
+*{
+	-webkit-appearance: none;
+}
+
 .test1{
 	background-color: blue;
 }
