@@ -97,7 +97,7 @@
 							<img class="card-img-top mx-auto" src="img/clean.gif">
 							<div class="card-body text-center">
 								<p class="card-text">
-									<b>Asisten Rumah Tangga</b>
+									<a data-bs-toggle="modal" href="#exampleModalToggle"><b>Asisten Rumah Tangga</b></a>
 								</p>
 							</div>
 						</a>
@@ -215,6 +215,56 @@
 	</div>
 </div>
 
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Durasi Penyewaan</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Pilih durasi penyewaan jasa yang anda inginkan
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" href="layanan/ART.html">Bulanan</a>
+        <button class="btn btn-primary" data-bs-target="#ModalHarian" data-bs-toggle="modal" data-bs-dismiss="modal">Harian</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="ModalHarian" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Harian</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <select class="form-select" aria-label="Default select example">
+		  <option selected>Pilih durasi...</option>
+		  <option value="1">1 Hari</option>
+		  <option value="2">2 Hari</option>
+		  <option value="3">3 Hari</option>
+		  <option value="4">4 Hari</option>
+		  <option value="5">5 Hari</option>
+		  <option value="6">6 Hari</option>
+		  <option value="7">7 Hari</option>
+		  <option value="8">8 Hari</option>
+		  <option value="9">9 Hari</option>
+		  <option value="10">10 Hari</option>
+		  <option value="11">11Hari</option>
+		  <option value="12">12 Hari</option>
+		  <option value="13">13 Hari</option>
+		  <option value="14">14 Hari</option>
+		  <option value="15">15 Hari</option>
+		</select>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary" href="layanan/ART.html">Konfirmasi</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
