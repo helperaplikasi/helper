@@ -10,6 +10,15 @@ btn{
 	-webkit-appearance: none!important;
 }
 
+.report{
+	opacity: 15%;
+}
+
+.report:hover{
+	opacity: 100%;
+	cursor: pointer;
+}
+
 .test1{
 	background-color: blue;
 }
